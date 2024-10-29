@@ -59,7 +59,10 @@ const Menu = () => {
 
                 <div>
                    <p className=" text-yellow-300 font-serif text-xl ">TASTY & FRESH</p>
-                   <p className=" the font-serif text-4xl font-bold mt-2 ">SANDWICHES</p>
+                   <div className=' flex items-center gap-2'>
+                   <img className=' h-[30px] ' src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="" />
+                   <p className=" the font-serif text-4xl font-bold mt-2 ">SANDWICH</p>
+                   </div>
                    <div>
                    <div className=" flex  justify-between  gap-10 mt-5">
                     <div className=' flex items-center gap-2 '>
@@ -98,7 +101,10 @@ const Menu = () => {
 
                 <div>
                    <p className=" text-yellow-300 font-serif text-xl ">TASTY & FRESH</p>
+                   <div className=' flex items-center gap-2'>
+                   <img className=' h-[30px] ' src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="" />
                    <p className=" the font-serif text-4xl font-bold mt-2 ">WAFFLES</p>
+                   </div>
                    <div>
                    <div className=" flex  justify-between  gap-10 mt-5">
                      <p className=" font-serif text-2xl  ">WASTED HOTDOG<br></br>
