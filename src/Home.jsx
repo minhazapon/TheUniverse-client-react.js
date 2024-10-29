@@ -1,4 +1,5 @@
 import Banner from "./home file/Banner";
+import Menu from "./home file/Menu";
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
 
             <Banner></Banner>
+            <Menu></Menu>
             
         </div>
     );

@@ -3,7 +3,7 @@
 
 const Banner = () => {
     return (
-        <div className=" mb-10">
+        <div className=" ">
 
             <div
               className="hero min-h-screen"
