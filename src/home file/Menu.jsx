@@ -5,7 +5,7 @@ const Menu = () => {
 
 
     return (
-        <div className=" mb-12 flex justify-center p-10 " 
+        <div className="  flex justify-center p-10 " 
         
         style={{
             backgroundImage: "url(https://img.freepik.com/free-vector/textured-background-design_1117-109.jpg?t=st=1730195657~exp=1730199257~hmac=28d38b33ad92a65a985c145b29b1c8c16ce14c7ad9b2ba85f06ac34402ed8bf9&w=740)",

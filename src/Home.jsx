@@ -1,4 +1,5 @@
 import Banner from "./home file/Banner";
+import FoodSlider from "./home file/FoodSlider";
 import Menu from "./home file/Menu";
 
 
@@ -10,6 +11,7 @@ const Home = () => {
 
             <Banner></Banner>
             <Menu></Menu>
+            <FoodSlider></FoodSlider>
             
         </div>
     );
