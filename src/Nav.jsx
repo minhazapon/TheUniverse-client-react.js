@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import './css file/Universe.css'
+
 
 
 
@@ -46,7 +48,7 @@ const Nav = () => {
    
     <div className=" flex items-center gap-2 ">
     <img className=" h-[60px] " src="https://cdn-icons-gif.flaticon.com/11616/11616389.gif" alt="" />   
-     <a className=" font-serif text-xl">TheUniverse</a>
+     <a  className=" universe  text-4xl">TheUniverse</a>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -56,6 +58,8 @@ const Nav = () => {
   </div>
  
 </div>
+
+  
             
         </div>
     );
