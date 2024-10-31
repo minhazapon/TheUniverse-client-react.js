@@ -11,7 +11,7 @@ import Menu from "./home file/Menu";
 const Home = () => {
     return (
         <div>
-
+ 
             <Banner></Banner>
             <Menu></Menu>
             <FoodSlider></FoodSlider>
