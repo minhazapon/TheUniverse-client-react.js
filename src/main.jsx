@@ -21,6 +21,7 @@ import {
   QueryClientProvider,
 } from '@tanstack/react-query'
 import OurMenu from './our menu file/OurMenu';
+import Gallery from './gallery file/Gallery';
 
 
 // Create a client
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/ourMenu",
         element: <OurMenu></OurMenu> ,
+      },
+      {
+        path: "/galleries",
+        element:  <Gallery></Gallery>,
       },
     ],
   },

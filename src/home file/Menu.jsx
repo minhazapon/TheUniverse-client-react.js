@@ -74,7 +74,7 @@ const Menu = () => {
                    </div>
                    <div className=" mt-5 ">
                         <hr></hr>
-                    </div>
+                     </div>
                    </div>
                    <div>
                    <div className=" flex justify-between   gap-10 mt-5">

@@ -1,5 +1,10 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import SoftDrinks from './SoftDrinks';
+import Smoothydetails from './Smoothydetails';
+import MilshakeDetails from './MilshakeDetails';
+import Smooty from './Smooty';
+import Milshake from './Milshake';
 
 
 
@@ -13,7 +18,7 @@ const Drinks = () => {
         <div>
 
             
-            <div className=' flex justify-center'>
+            <div className=' flex justify-center p-20'>
 
 
             <div className=''>
@@ -24,13 +29,13 @@ const Drinks = () => {
             <Tab><p className='the btn bg-blue-900 text-white  text-xl '>Milkshakes</p></Tab>
             </TabList>
             <TabPanel>
-            <h2>Any content 1</h2>
+               <SoftDrinks></SoftDrinks>
             </TabPanel>
             <TabPanel>
-            <h2>Any content 2</h2>
+               <Smooty></Smooty>
             </TabPanel>
             <TabPanel>
-            <h2>Any content 3</h2>
+                <Milshake></Milshake>
             </TabPanel>
             </Tabs>
             </div>
