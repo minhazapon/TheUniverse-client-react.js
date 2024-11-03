@@ -20,6 +20,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
+import OurMenu from './our menu file/OurMenu';
 
 
 // Create a client
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/page",
         element: <Page></Page> ,
+      },
+      {
+        path: "/ourMenu",
+        element: <OurMenu></OurMenu> ,
       },
     ],
   },
