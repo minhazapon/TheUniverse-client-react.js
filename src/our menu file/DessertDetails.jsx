@@ -1,16 +1,16 @@
 
 
-const DishDetails = ({query}) => {
-    
-    const {name, title, price, image} = query
 
+const DessertDetails = ({dessert}) => {
+
+    const {image, name, title, price} = dessert
 
     return (
         <div>
 
-            <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img class=" rounded-t-lg" src={image} alt="product image" />
+                    <img class=" rounded-t-lg" src="https://nutricia.com.au/fortisip/wp-content/uploads/sites/8/2020/09/Forticreme-Chocolate-Chocolate-Layered-Dessert-1-scaled.jpeg" alt="product image" />
                 </a>
                 <div class="px-5 pb-5">
                     <a href="#">
@@ -43,14 +43,9 @@ const DishDetails = ({query}) => {
                     </div>
                 </div>
             </div>
-
             
         </div>
     );
 };
 
-export default DishDetails;
-
-
-
-
+export default DessertDetails;

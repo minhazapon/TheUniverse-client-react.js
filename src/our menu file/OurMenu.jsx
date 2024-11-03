@@ -1,6 +1,8 @@
+import Dessert from "./Dessert";
+import Drinks from "./Drinks";
 import MainDishes from "./MainDishes";
 import OurMenuBanner from "./OurMenuBanner";
-import SweetDessert from "./SweetDessert";
+
 
 
 
@@ -10,7 +12,9 @@ const OurMenu = () => {
 
             <OurMenuBanner></OurMenuBanner>
             <MainDishes></MainDishes>
-            <SweetDessert></SweetDessert>
+            <Dessert></Dessert>
+            <Drinks></Drinks>
+    
             
         </div>
     );
