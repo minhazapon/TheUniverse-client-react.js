@@ -19,7 +19,7 @@ const FoodSlider = () => {
         <SwiperSlide>
             <div>
                 <div className=' flex justify-center'>
-                    <img className=' w-full h-[700px] ' src="https://img.freepik.com/free-photo/twigs-leaves-near-lamp-cutlery_23-2147811213.jpg?t=st=1730199926~exp=1730203526~hmac=f6b24e63f65542ed0edfe60896785f8aefed7104de13a00c96c8f1846c1a7bb7&w=740" alt="" />
+                    <img className=' w-full h-[700px] ' src="https://res.cloudinary.com/the-infatuation/image/upload/v1657763253/cms/guides/the-winter-onetwo-punch/Izakaya_sandynoto.jpg" alt="" />
                 </div>
             </div>
         </SwiperSlide>
