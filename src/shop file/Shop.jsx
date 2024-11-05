@@ -1,4 +1,5 @@
 import ShopBanner from "./ShopBanner";
+import Shopcard from "./Shopcard";
 
 
 
@@ -9,6 +10,7 @@ const Shop = () => {
         <div>
 
             <ShopBanner></ShopBanner>
+            <Shopcard></Shopcard>
             
         </div>
     );

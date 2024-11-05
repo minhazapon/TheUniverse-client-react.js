@@ -8,12 +8,13 @@ const Nav = () => {
 
     const navz = <>
     
-       <li className=" font-serif " ><NavLink to='/' >HOME</NavLink></li>
-       <li className=" font-serif " ><NavLink to='/page' >PAGE</NavLink></li>
-       <li className=" font-serif " ><NavLink to='/ourMenu' >OUR OFFER</NavLink></li>
-       <li className=" font-serif " ><NavLink to='/galleries' >GALLERIES</NavLink></li>
-       <li className=" font-serif " ><NavLink to='/blog' >BLOG</NavLink></li>
-       <li className=" font-serif " ><NavLink to='/shop' >SHOP</NavLink></li>
+       <li className="  the  " ><NavLink to='/' >HOME</NavLink></li>
+       <li className="  the  " ><NavLink to='/page' >PAGE</NavLink></li>
+       <li className="  the  " ><NavLink to='/ourMenu' >OUR OFFER</NavLink></li>
+       <li className="  the  " ><NavLink to='/galleries' >GALLERIES</NavLink></li>
+       <li className="  the  " ><NavLink to='/blog' >BLOG</NavLink></li>
+       <li className="  the  " ><NavLink to='/shop' >SHOP</NavLink></li>
+       
     
     </>
 
@@ -56,6 +57,9 @@ const Nav = () => {
       {navz}
     </ul>
   </div>
+  {/* <div className="navbar-end">
+      <img className=" h-[40px] " src="https://cdn-icons-png.flaticon.com/128/1000/1000997.png" alt="" />
+  </div> */}
  
 </div>
 

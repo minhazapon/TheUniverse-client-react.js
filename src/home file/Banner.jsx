@@ -8,7 +8,7 @@ const Banner = () => {
             <div
               className="hero min-h-screen"
               style={{
-                backgroundImage: "url(https://img.freepik.com/premium-photo/waiter-serves-food_1030879-93516.jpg?w=826)",
+                backgroundImage: "url(https://images.unsplash.com/photo-1518685101044-3b5a4e7580a3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRhcmslMjByZXN0YXVyYW50fGVufDB8fDB8fHww)",
               }}>
               <div className="hero-overlay bg-opacity-60"></div>
               <div className="hero-content text-neutral-content text-center">

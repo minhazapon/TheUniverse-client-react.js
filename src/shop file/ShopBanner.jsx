@@ -3,7 +3,6 @@
 const ShopBanner = () => {
     return (
         <div>
-            
         <div
           className="hero min-h-screen"
           style={{
@@ -13,12 +12,10 @@ const ShopBanner = () => {
           <div className="hero-content ">
             <div className=" p-10">
               <h1 className=" the text-white mb-5 text-8xl font-bold">Shop</h1>
-            
               <h1 className=" mt-5 text-4xl text-gray-400 choice  mb-5">"The way of the sword is the way of life. A true samurai dedicates himself to his blade."</h1>
             </div>
           </div>
         </div>
-        
         </div>
     );
 };
