@@ -23,6 +23,7 @@ import {
 import OurMenu from './our menu file/OurMenu';
 import Gallery from './gallery file/Gallery';
 import Blog from './blog file/Blog';
+import Shop from './shop file/Shop';
 
 
 // Create a client
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog></Blog>  ,
+      },
+      {
+        path: "/shop",
+        element: <Shop></Shop> ,
       },
     ],
   },
