@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -20,7 +21,10 @@ const BurgerDetails = ({query}) => {
                 <h2 className="card-title the "> {name} </h2>
                 <p className=" font-serif "> {title} </p>
                 <div className="card-actions">
-                  <button className="btn bg-blue-900 the text-white  ">Buy Now</button>
+                  <Link to='/add' >
+                  <button className="btn bg-blue-900 the text-white  ">Add Cart</button>
+                  </Link>
+                
                 </div>
               </div>
             </div>

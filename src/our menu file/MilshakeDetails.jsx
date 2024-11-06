@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -40,7 +41,9 @@ const MilshakeDetails = ({milk}) => {
                     </div>
                      <div class="flex justify-between items-center ">
                         <p className=" the text-2xl text-blue-950 ">{price}</p>
+                        <Link to='/add' >
                         <button className=" btn bg-blue-900 text-white the ">Add cart</button> 
+                        </Link>
                     </div>
                 </div>
             </div>
