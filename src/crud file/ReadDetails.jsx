@@ -1,11 +1,58 @@
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
 
 
 const ReadDetails = ({query}) => {
     
 
-    const { name, title,price, image  } = query
+    const { _id, name, title,price, image  } = query
+
+
+    const handleDelete = delete_id =>{
+
+
+      console.log(_id)
+
+      
+      Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          
+          fetch(`http://localhost:5000/universeCrudData/${_id}`, {
+
+            method: 'DELETE'
+
+          })
+          .then( res => res.json())
+          .then( data => {
+
+            console.log(data)
+
+            if(data){
+               
+              Swal.fire({
+                title: "Deleted!",
+                text: "Your file has been deleted.",
+                icon: "success"
+              });
+
+
+            }
+
+          } )
+
+
+
+        }
+      });} 
 
     return (
         <div>
@@ -25,6 +72,10 @@ const ReadDetails = ({query}) => {
                 <p className=" text-xl the "> {price} </p>
                 <div className="card-actions">
                   <button className="btn the bg-blue-900 text-white ">Buy</button>
+                  <button onClick={() => handleDelete(query._id) } className="btn the bg-blue-900 text-white ">Delete</button>
+                  <Link to={`/update/${_id}`} >
+                  <button className="btn the bg-blue-900 text-white ">Update</button>
+                  </Link>
                 </div>
               </div>
               </div>
