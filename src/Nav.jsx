@@ -14,6 +14,7 @@ const Nav = () => {
        <li className="  the  " ><NavLink to='/galleries' >GALLERIES</NavLink></li>
        <li className="  the  " ><NavLink to='/blog' >BLOG</NavLink></li>
        <li className="  the  " ><NavLink to='/shop' >SHOP</NavLink></li>
+       <li className="  the  " ><NavLink to='/yourProduct' >Add Products</NavLink></li>
        
     
     </>

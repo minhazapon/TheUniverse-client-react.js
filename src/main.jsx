@@ -24,6 +24,8 @@ import OurMenu from './our menu file/OurMenu';
 import Gallery from './gallery file/Gallery';
 import Blog from './blog file/Blog';
 import Shop from './shop file/Shop';
+import AddForm from './crud file/AddForm';
+import Read from './crud file/Read';
 
 
 // Create a client
@@ -58,6 +60,14 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop></Shop> ,
+      },
+      {
+        path: "/add",
+        element: <AddForm></AddForm> ,
+      },
+      {
+        path: "/yourProduct",
+        element: <Read></Read> ,
       },
      
     ],
