@@ -26,7 +26,7 @@ const ReadDetails = ({query}) => {
       }).then((result) => {
         if (result.isConfirmed) {
           
-          fetch(`http://localhost:5000/universeCrudData/${_id}`, {
+          fetch(`https://theuniverse-server-express-js.onrender.com/universeCrudData/${_id}`, {
 
             method: 'DELETE'
 

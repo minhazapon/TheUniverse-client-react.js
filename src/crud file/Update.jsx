@@ -25,7 +25,7 @@ const Update = () => {
         const image = form.image.value
         const allValue = { name, price, title, image }
 
-        fetch(`http://localhost:5000/universeCrudData/${_id}`, {
+        fetch(`https://theuniverse-server-express-js.onrender.com/universeCrudData/${_id}`, {
 
           method: 'PUT',
           headers:{

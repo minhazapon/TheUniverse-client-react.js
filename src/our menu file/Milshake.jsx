@@ -10,7 +10,7 @@ const Milshake = () => {
 
           queryKey: ['milk'],
           queryFn: async() =>{
-             const res = await fetch('http://localhost:5000/milkData')
+             const res = await fetch('https://theuniverse-server-express-js.onrender.com/milkData')
              return res.json()
           }
      })

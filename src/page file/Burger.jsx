@@ -9,7 +9,7 @@ const Burger = () => {
        queryKey: ['query'],
        queryFn: async () =>{
 
-            const res = await fetch('http://localhost:5000/burgerData')
+            const res = await fetch('https://theuniverse-server-express-js.onrender.com/burgerData')
             return res.json()
 
        }

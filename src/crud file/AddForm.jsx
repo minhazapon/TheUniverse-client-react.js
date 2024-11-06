@@ -18,7 +18,7 @@ const AddForm = () => {
         const price = form.price.value
         const allValue = { image, name, title, price }
 
-        fetch('http://localhost:5000/universeCrudData',{
+        fetch('https://theuniverse-server-express-js.onrender.com/universeCrudData',{
 
            method: 'POST',
            headers: {

@@ -9,7 +9,7 @@ const SoftDrinks = () => {
 
         queryKey: ['soft'],
         queryFn: async() =>{
-           const res = await fetch('http://localhost:5000/softData')
+           const res = await fetch('https://theuniverse-server-express-js.onrender.com/softData')
            return res.json()
         }
    })

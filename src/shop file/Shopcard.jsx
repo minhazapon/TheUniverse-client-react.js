@@ -10,7 +10,7 @@ const Shopcard = () => {
       const {data: shop} = useQuery({
           queryKey:['shop'],
           queryFn: async() =>{
-             const res = await fetch('http://localhost:5000/universeShopData')
+             const res = await fetch('https://theuniverse-server-express-js.onrender.com/universeShopData')
              return res.json()
           }
       })

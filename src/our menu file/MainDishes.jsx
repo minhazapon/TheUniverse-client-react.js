@@ -12,7 +12,7 @@ const MainDishes = () => {
         queryKey: ['query'],
         queryFn: async() =>{
             
-            const res = await fetch('http://localhost:5000/dishData') 
+            const res = await fetch('https://theuniverse-server-express-js.onrender.com/dishData') 
             return res.json();
         }
 

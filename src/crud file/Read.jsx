@@ -11,7 +11,7 @@ const Read = () => {
     const {data: query } = useQuery({
          queryKey: ['query'],
          queryFn: async() => {
-            const res = await fetch('http://localhost:5000/universeCrudData')
+            const res = await fetch('https://theuniverse-server-express-js.onrender.com/universeCrudData')
             return res.json()
          }
     })

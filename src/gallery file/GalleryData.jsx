@@ -11,7 +11,7 @@ const GalleryData = () => {
        queryKey: ['query'],
        queryFn: async() =>{
           
-          const res = await fetch('http://localhost:5000/galleryData')
+          const res = await fetch('https://theuniverse-server-express-js.onrender.com/galleryData')
           return res.json()
 
        }

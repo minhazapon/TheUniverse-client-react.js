@@ -12,7 +12,7 @@ const Smooty = () => {
 
         queryKey: ['smooth'],
         queryFn: async() =>{
-           const res = await fetch('http://localhost:5000/smoothData')
+           const res = await fetch('https://theuniverse-server-express-js.onrender.com/smoothData')
            return res.json()
         }
     })

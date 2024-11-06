@@ -73,7 +73,7 @@ const router = createBrowserRouter([
       {
         path: "/update/:id",
         element: <Update></Update> ,
-        loader: ({params}) => fetch(`http://localhost:5000/universeCrudData/${params.id}`)
+        loader: ({params}) => fetch(`https://theuniverse-server-express-js.onrender.com/universeCrudData/${params.id}`)
       },
      
     ],

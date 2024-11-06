@@ -8,7 +8,7 @@ const BlogData = () => {
 
          queryKey: ['blog'],
          queryFn: async() =>{            
-            const res = await fetch('http://localhost:5000/universeBlogData')
+            const res = await fetch('https://theuniverse-server-express-js.onrender.com/universeBlogData')
             return res.json()
 
          }

@@ -8,7 +8,7 @@ const Dessert = () => {
     const {data: dessert} = useQuery({
        queryKey: ['dessert'],
        queryFn: async() =>{
-            const res = await fetch('http://localhost:5000/dessertData')
+            const res = await fetch('https://theuniverse-server-express-js.onrender.com/dessertData')
             return res.json()
        }
     })

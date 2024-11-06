@@ -38,12 +38,6 @@ const BlogSideBar = () => {
         }
       };
 
-
-
-
-
-
-
     return (
         <div className=" flex justify-center ">
 
